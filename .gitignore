@@ -1,1 +1,164 @@
 /HW1/nbproject/private/
+/HW2/HelloRunnable/nbproject/private/
+/HW2/HelloRunnable/build/
+/HW2/HelloThread/nbproject/private/
+/HW2/HelloThread/build/
+/HW2/SleepMessages/nbproject/private/
+/HW2/SleepMessages/build/
+/HW2/SleepMessages/dist/
+/HW2/SimpleThreads/nbproject/private/
+/HW2/SimpleThreads/dist/
+/HW2/SimpleThreads/build/
+/HW2/Lecture 3/HelloRunnable/nbproject/private/
+/HW2/Lecture 3/HelloThread/nbproject/private/
+/HW2/Lecture 3/SimpleThreads/nbproject/private/
+/HW2/Lecture 3/SleepMessages/nbproject/private/
+/HW2/Lecture 4/Deadlock/nbproject/private/
+/HW2/Lecture 4/Deadlock/build/
+/HW2/Lecture 4/Deadlock/dist/
+/HW2/Lecture 4/ProducerConsumerExample/nbproject/private/
+/HW2/Lecture 5/ProducerConsumerExample/nbproject/private/
+/HW2/Lecture 5/ProducerConsumerExample/build/
+/HW2/Lecture 5/ProducerConsumerExample/dist/
+/HW2/Lecture 6/ForkBlur/nbproject/private/
+/HW2/Lecture 6/ForkBlur/dist/
+/HW2/Lecture 6/ForkBlur/build/
+/HW2/Lecture 9/TestThread1/nbproject/private/
+/HW2/Lecture 9/TestThread1/dist/
+/HW2/Lecture 9/TestThread1/build/
+/HW2/Lecture 9/TestThread3/nbproject/private/
+/HW2/Lecture 9/TestThread2/nbproject/private/
+/HW2/Lecture 9/TestThread2/dist/
+/HW2/Lecture 9/TestThread2/build/
+/HW2/Lecture 9/TestThread3/build/
+/HW2/Lecture 9/TestThread3/dist/
+/HW2/Lecture 9/TestThread4/nbproject/private/
+/HW2/Lecture 9/TestThread4/dist/
+/HW2/Lecture 9/TestThread4/build/
+/HW2/Lecture 9/TestThread5/nbproject/private/
+/HW2/Lecture 9/TestThread5/build/
+/HW2/Lecture 9/TestThread5/dist/
+/HW2/Lecture 9/TestThread6/nbproject/private/
+/HW2/Lecture 9/TestThread6/build/
+/HW2/Lecture 9/TestThread6/dist/
+/HW2/Lecture 9/TestThread7/nbproject/private/
+/HW2/Lecture 9/TestThread7/dist/
+/HW2/Lecture 9/TestThread7/build/
+/HW2/Lecture 9/TestThread8/nbproject/private/
+/HW2/Lecture 9/TestThread8/build/
+/HW2/Lecture 9/TestThread8/dist/
+/HW2/Lecture 9/TestThread9/nbproject/private/
+/HW2/Lecture 9/TestThread9/build/
+/HW2/Lecture 9/TestThread9/dist/
+/HW2/Lecture 9/TestThread10/nbproject/private/
+/HW2/Lecture 9/TestThread10/dist/
+/HW2/Lecture 9/TestThread10/build/
+/HW2/Lecture 9/TestThread11/nbproject/private/
+/HW2/Lecture 9/TestThread11/build/
+/HW2/Lecture 9/TestThread11/dist/
+/HW2/Lecture 9/MemoizationExample/nbproject/private/
+/HW2/Lecture 9/MemoizationExample/build/
+/HW2/Lecture 9/MemoizationExample/dist/
+/HW2/Lecture 9/BarrierExample/nbproject/private/
+/HW2/Lecture 9/BarrierExample/build/
+/HW2/Lecture 9/BarrierExample/dist/
+/HW2/Part 2/Lecture 3/HelloRunnable/nbproject/private/
+/HW2/Part 2/Lecture 3/HelloThread/nbproject/private/
+/HW2/Part 2/Lecture 3/SimpleThreads/nbproject/private/
+/HW2/Part 2/Lecture 3/SleepMessages/nbproject/private/
+/HW2/Part 2/Lecture 4/Deadlock/build/
+/HW2/Part 2/Lecture 4/Deadlock/dist/
+/HW2/Part 2/Lecture 4/Deadlock/nbproject/private/
+/HW2/Part 2/Lecture 5/ProducerConsumerExample/build/
+/HW2/Part 2/Lecture 5/ProducerConsumerExample/dist/
+/HW2/Part 2/Lecture 5/ProducerConsumerExample/nbproject/private/
+/HW2/Part 2/Lecture 6/ForkBlur/build/
+/HW2/Part 2/Lecture 6/ForkBlur/dist/
+/HW2/Part 2/Lecture 6/ForkBlur/nbproject/private/
+/HW2/Part 2/Lecture 9/BarrierExample/build/
+/HW2/Part 2/Lecture 9/BarrierExample/dist/
+/HW2/Part 2/Lecture 9/BarrierExample/nbproject/private/
+/HW2/Part 2/Lecture 9/MemoizationExample/build/
+/HW2/Part 2/Lecture 9/MemoizationExample/dist/
+/HW2/Part 2/Lecture 9/MemoizationExample/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread1/build/
+/HW2/Part 2/Lecture 9/TestThread1/dist/
+/HW2/Part 2/Lecture 9/TestThread1/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread10/build/
+/HW2/Part 2/Lecture 9/TestThread10/dist/
+/HW2/Part 2/Lecture 9/TestThread10/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread11/build/
+/HW2/Part 2/Lecture 9/TestThread11/dist/
+/HW2/Part 2/Lecture 9/TestThread11/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread2/build/
+/HW2/Part 2/Lecture 9/TestThread2/dist/
+/HW2/Part 2/Lecture 9/TestThread2/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread3/build/
+/HW2/Part 2/Lecture 9/TestThread3/dist/
+/HW2/Part 2/Lecture 9/TestThread3/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread4/build/
+/HW2/Part 2/Lecture 9/TestThread4/dist/
+/HW2/Part 2/Lecture 9/TestThread4/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread5/build/
+/HW2/Part 2/Lecture 9/TestThread5/dist/
+/HW2/Part 2/Lecture 9/TestThread5/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread6/build/
+/HW2/Part 2/Lecture 9/TestThread6/dist/
+/HW2/Part 2/Lecture 9/TestThread6/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread7/build/
+/HW2/Part 2/Lecture 9/TestThread7/dist/
+/HW2/Part 2/Lecture 9/TestThread7/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread8/build/
+/HW2/Part 2/Lecture 9/TestThread8/dist/
+/HW2/Part 2/Lecture 9/TestThread8/nbproject/private/
+/HW2/Part 2/Lecture 9/TestThread9/build/
+/HW2/Part 2/Lecture 9/TestThread9/dist/
+/HW2/Part 2/Lecture 9/TestThread9/nbproject/private/
+/HW2/Part 2/Lecture 3/HelloRunnable/dist/
+/HW2/Part 2/Lecture 3/HelloRunnable/build/
+/HW2/Part 1/Video 5/Greeter/nbproject/private/
+/HW2/Part 1/Video 5/Greeter/dist/
+/HW2/Part 1/Video 5/Greeter/build/
+/HW2/Part 1/Video 8/Greeter/build/
+/HW2/Part 1/Video 8/Greeter/dist/
+/HW2/Part 1/Video 8/Greeter/nbproject/private/
+/HW2/Part 1/Video 10/TypeInferenceExample/nbproject/private/
+/HW2/Part 1/Video 10/TypeInferenceExample/dist/
+/HW2/Part 1/Video 10/TypeInferenceExample/build/
+/HW2/Part 1/Video 11/RunnableExample/nbproject/private/
+/HW2/Part 1/Video 11/RunnableExample/build/
+/HW2/Part 1/Video 11/RunnableExample/dist/
+/HW2/Part 1/Video 13/LambdaExercise/nbproject/private/
+/HW2/Part 1/Video 13/LambdaExercise/build/
+/HW2/Part 1/Video 13/LambdaExercise/dist/
+/HW2/Part 1/Video 16/StandardFunctionalInterfaceExample/nbproject/private/
+/HW2/Part 1/Video 16/StandardFunctionalInterfaceExample/build/
+/HW2/Part 1/Video 16/StandardFunctionalInterfaceExample/dist/
+/HW2/Part 1/Video 17/ExceptionHandlingExample/nbproject/private/
+/HW2/Part 1/Video 17/ExceptionHandlingExample/dist/
+/HW2/Part 1/Video 17/ExceptionHandlingExample/build/
+/HW2/Part 1/Video 18/ExceptionHandlingExample/build/
+/HW2/Part 1/Video 18/ExceptionHandlingExample/dist/
+/HW2/Part 1/Video 18/ExceptionHandlingExample/nbproject/private/
+/HW2/Part 1/Video 19/ClosuresExample/nbproject/private/
+/HW2/Part 1/Video 19/ClosuresExample/build/
+/HW2/Part 1/Video 19/ClosuresExample/dist/
+/HW2/Part 1/Video 20/ThisReferenceExample/nbproject/private/
+/HW2/Part 1/Video 20/ThisReferenceExample/build/
+/HW2/Part 1/Video 20/ThisReferenceExample/dist/
+/HW2/Part 1/Video 21/MethodReferenceExample1/nbproject/private/
+/HW2/Part 1/Video 21/MethodReferenceExample1/build/
+/HW2/Part 1/Video 21/MethodReferenceExample1/dist/
+/HW2/Part 1/Video 21/MethodReferenceExample2/nbproject/private/
+/HW2/Part 1/Video 21/MethodReferenceExample2/dist/
+/HW2/Part 1/Video 21/MethodReferenceExample2/build/
+/HW2/Part 1/Video 22/CollectionIterationExample/nbproject/private/
+/HW2/Part 1/Video 22/CollectionIterationExample/dist/
+/HW2/Part 1/Video 22/CollectionIterationExample/build/
+/HW2/Part 1/Video 23/StreamsExample1/nbproject/private/
+/HW2/Part 1/Video 23/StreamsExample1/build/
+/HW2/Part 1/Video 23/StreamsExample1/dist/
+/HW2/Part 1/Video 23/StreamsExample/nbproject/private/
+/HW2/Part 1/Video 24/StreamsExample/build/
+/HW2/Part 1/Video 24/StreamsExample/dist/
+/HW2/Part 1/Video 24/StreamsExample/nbproject/private/
