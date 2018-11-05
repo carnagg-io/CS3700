@@ -213,3 +213,10 @@
 /HW5/Sieve of Eratosthenes Implementations/ThreadSieve/dist/
 /HW5/Sieve of Eratosthenes Implementations/ThreadSieve/build/
 /HW5/Sieve of Eratosthenes Implementations/ActorSieve/target/
+/HW5/Producer Consumer Implementations/LockedProducerConsumer/build/
+/HW5/Producer Consumer Implementations/LockedProducerConsumer/dist/
+/HW5/Producer Consumer Implementations/IsolatedProducerConsumer/build/
+/HW5/Producer Consumer Implementations/IsolatedProducerConsumer/dist/
+/HW5/Producer Consumer Implementations/AtomicProducerConsumer/dist/
+/HW5/Producer Consumer Implementations/AtomicProducerConsumer/build/
+/HW5/Producer Consumer Implementations/ActorProducerConsumer/target/

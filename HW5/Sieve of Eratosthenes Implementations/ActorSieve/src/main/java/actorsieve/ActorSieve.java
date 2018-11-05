@@ -1,16 +1,26 @@
+/******************************************************************************
+ * STUDENT     : Jordan Carnaggio
+ * INSTRUCTOR  : Nima Davarpanah
+ * COURSE      : CS 3700
+ * ASSIGNMENT  : 5-2
+ * DUE         : 11-5-18
+ * DESCRIPTION : Main class for an implementation of the Sieve of Eratosthenes
+ *               using actors.
+ ******************************************************************************/
+
 package actorsieve;
 
 import akka.actor.UntypedAbstractActor;
 import akka.actor.ActorSystem;
 import akka.actor.ActorRef;
 import akka.actor.Props;
-import akka.actor.Terminated;
+import akka.actor.PoisonPill;
 
 public class ActorSieve {
     
     private static ActorSystem system = ActorSystem.create("sieve-of-eratosthenes-system");
     private static int primeCount = 0;
-    private static final Object waitLock = new Object();
+    private static final Object terminationLock = new Object();
     
     private static class Sieve extends UntypedAbstractActor {
         
@@ -33,31 +43,18 @@ public class ActorSieve {
                 int candidate = (Integer)msg;
                 if(candidate % localPrime > 0) {
                     if(nextSieve == null)
-                        nextSieve = getContext().actorOf(Sieve.props(candidate), "sieve-actor-" + candidate);
+                        nextSieve = system.actorOf(Sieve.props(candidate), "sieve-actor-" + candidate);
                     else
                         nextSieve.tell(msg, getSelf());
                 }
             } else if(nextSieve == null) {
-                synchronized(waitLock) {
-                    waitLock.notify();
+                synchronized(terminationLock) {
+                    terminationLock.notify();
                 }
             } else {
                 nextSieve.tell("", ActorRef.noSender());
+                //getSelf().tell(PoisonPill.getInstance(), ActorRef.noSender());
             }
-//            else if(msg instanceof String) {
-//                if(nextSieve == null) {
-//                    System.out.println("Outside synch");
-//                    synchronized(waitLock) {
-//                        waitLock.notify();
-//                    }
-//                    getContext().stop(getSelf());
-//                } else {
-//                    getContext().watch(nextSieve);
-//                    nextSieve.tell("", getSelf());
-//                }
-//            } else if(msg instanceof Terminated) {
-//                getContext().stop(getSelf());
-//            }
         }
         
     }
@@ -69,12 +66,12 @@ public class ActorSieve {
         
         if(n > 1) {
             ActorRef initSieve = system.actorOf(Sieve.props(2), "sieve-actor-2");
-            synchronized(waitLock) {
+            synchronized(terminationLock) {
                 for(int i = 3; i <= n; i++)
                     initSieve.tell(i, ActorRef.noSender());
                 initSieve.tell("", ActorRef.noSender());
                 try {
-                    waitLock.wait(300000);
+                    terminationLock.wait(300000);
                 } catch(InterruptedException e) {
                     System.out.println();
                 }

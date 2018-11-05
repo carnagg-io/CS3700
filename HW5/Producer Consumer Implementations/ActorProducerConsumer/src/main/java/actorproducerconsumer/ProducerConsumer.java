@@ -89,7 +89,7 @@ public class ProducerConsumer {
             if(msg instanceof Integer) {
                 consumerGoal.decrementAndGet();
                 if(consumerGoal.get() > 0) {
-                    //Thread.sleep(sleepMillis);
+                    Thread.sleep(sleepMillis);
                     bufferRef.tell("", getSelf());
                 }
             } else {
