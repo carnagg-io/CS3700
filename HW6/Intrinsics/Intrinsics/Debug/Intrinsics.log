@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  Intrinsics.cpp
+c:\users\odious\documents\cal poly pomona\2018 - 4 (fall)\cs 3700\cs3700\hw6\intrinsics\intrinsics\intrinsics.cpp(35): error C2039: 'aligned_alloc': is not a member of 'std'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.13.26128\include\cstdlib(33): note: see declaration of 'std'
+c:\users\odious\documents\cal poly pomona\2018 - 4 (fall)\cs 3700\cs3700\hw6\intrinsics\intrinsics\intrinsics.cpp(35): error C3861: 'aligned_alloc': identifier not found

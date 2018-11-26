@@ -53,7 +53,7 @@ public class ActorSieve {
                 }
             } else {
                 nextSieve.tell("", ActorRef.noSender());
-                //getSelf().tell(PoisonPill.getInstance(), ActorRef.noSender());
+                getSelf().tell(PoisonPill.getInstance(), ActorRef.noSender());
             }
         }
         
